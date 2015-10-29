@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<objects>
+<!-- ('', 'zport', 'dmd', 'Processes', 'Dummy') -->
+<object id='/zport/dmd/Processes/Dummy' module='Products.ZenModel.OSProcessOrganizer' class='OSProcessOrganizer'>
+<tomanycont id='osProcessClasses'>
+<object id='dummy7' module='Products.ZenModel.OSProcessClass' class='OSProcessClass'>
+<property type="string" id="name" mode="w" >
+dummy7
+</property>
+<property type="string" id="regex" mode="w" >
+.*bash.*\./dummy7
+</property>
+<property type="boolean" id="ignoreParametersWhenModeling" mode="w" >
+False
+</property>
+<property type="boolean" id="ignoreParameters" mode="w" >
+False
+</property>
+<property type="int" id="sequence" mode="w" >
+0
+</property>
+<property visible="True" type="int" id="zFailSeverity" >
+2
+</property>
+<tomany id='instances'>
+<link objid='/zport/dmd/Devices/Server/Linux/devices/zenny.skills-1st.co.uk/os/processes/zport_dmd_Processes_Dummy_osProcessClasses_dummy7_956e0951ee477dde5d8dd917e813baa8'/>
+<link objid='/zport/dmd/Devices/Server/Linux/devices/zen42.class.example.org/os/processes/zport_dmd_Processes_Dummy_osProcessClasses_dummy7_956e0951ee477dde5d8dd917e813baa8'/>
+</tomany>
+</object>
+</tomanycont>
+</object>
+</objects>
